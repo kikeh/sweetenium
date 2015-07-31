@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Test">
+    <parameters>
+		<parameter name="browser" value="firefox" />
+		<parameter name="lot" value="" />
+    </parameters>
+    <classes>
+      <class name="tests.LinkTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

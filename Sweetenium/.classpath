@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="test"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="/Users/kike/Downloads/selenium-2.46.0/selenium-java-2.46.0-srcs.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/kike/mtp/Cordis/Grid/Classpath/testng-6.1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/kike/Downloads/selenium-2.46.0/selenium-java-2.46.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/kike/mtp/Cordis/Grid/Classpath/sac-1.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/kike/mtp/Cordis/Grid/Classpath/selenium-android-driver-2.37.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/kike/mtp/Cordis/Grid/Classpath/selenium-api-2.37.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/kike/mtp/Cordis/Grid/Classpath/selenium-chrome-driver-2.37.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/kike/mtp/Cordis/Grid/Classpath/selenium-firefox-driver-2.42.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/kike/mtp/Cordis/Grid/Classpath/selenium-htmlunit-driver-2.37.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/kike/mtp/Cordis/Grid/Classpath/selenium-ie-driver-2.37.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/kike/mtp/Cordis/Grid/Classpath/selenium-iphone-driver-2.37.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/kike/mtp/Cordis/Grid/Classpath/selenium-java-2.37.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/kike/mtp/Cordis/Grid/Classpath/selenium-remote-driver-2.37.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/kike/mtp/Cordis/Grid/Classpath/selenium-safari-driver-2.37.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/kike/mtp/Cordis/Grid/Classpath/selenium-support-2.37.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/kike/mtp/Cordis/Grid/Classpath/serializer-2.7.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/kike/mtp/Cordis/Grid/Classpath/snakeyaml-1.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/kike/mtp/Cordis/Grid/Classpath/webbit-0.4.14.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/kike/mtp/Cordis/Grid/Classpath/xalan-2.7.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/kike/mtp/Cordis/Grid/Classpath/xercesImpl-2.11.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/kike/mtp/Cordis/Grid/Classpath/xml-apis-1.4.01.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/kike/mtp/Cordis/Grid/Classpath/bsh-2.0b4.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/kike/mtp/Cordis/Grid/Classpath/cglib-nodep-2.1_3.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/kike/mtp/Cordis/Grid/Classpath/commons-codec-1.8.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/kike/mtp/Cordis/Grid/Classpath/commons-collections-3.2.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/kike/mtp/Cordis/Grid/Classpath/commons-exec-1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/kike/mtp/Cordis/Grid/Classpath/commons-io-2.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/kike/mtp/Cordis/Grid/Classpath/commons-lang3-3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/kike/mtp/Cordis/Grid/Classpath/commons-logging-1.1.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/kike/mtp/Cordis/Grid/Classpath/cssparser-0.9.11.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/kike/mtp/Cordis/Grid/Classpath/guava-15.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/kike/mtp/Cordis/Grid/Classpath/hamcrest-core-1.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/kike/mtp/Cordis/Grid/Classpath/htmlunit-2.13.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/kike/mtp/Cordis/Grid/Classpath/htmlunit-core-js-2.13.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/kike/mtp/Cordis/Grid/Classpath/httpclient-4.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/kike/mtp/Cordis/Grid/Classpath/httpcore-4.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/kike/mtp/Cordis/Grid/Classpath/httpmime-4.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/kike/mtp/Cordis/Grid/Classpath/jcommander-1.12.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/kike/mtp/Cordis/Grid/Classpath/jetty-http-8.1.12.v20130726.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/kike/mtp/Cordis/Grid/Classpath/jetty-io-8.1.12.v20130726.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/kike/mtp/Cordis/Grid/Classpath/jetty-util-8.1.12.v20130726.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/kike/mtp/Cordis/Grid/Classpath/jetty-websocket-8.1.12.v20130726.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/kike/mtp/Cordis/Grid/Classpath/jna-3.4.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/kike/mtp/Cordis/Grid/Classpath/json-20080701.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/kike/mtp/Cordis/Grid/Classpath/junit-4.11.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/kike/mtp/Cordis/Grid/Classpath/nekohtml-1.9.19.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/kike/mtp/Cordis/Grid/Classpath/netty-3.5.2.Final.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/kike/mtp/Cordis/Grid/Classpath/platform-3.4.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/kike/mtp/Cordis/Grid/Classpath/poi-3.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/kike/mtp/Cordis/Grid/Classpath/poi-3.10-FINAL.jar"/>
+	<classpathentry kind="lib" path="/Users/kike/Downloads/gson-2.3.1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

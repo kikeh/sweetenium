@@ -5,9 +5,9 @@ import java.util.List;
 
 import org.openqa.selenium.WebDriver;
 
-public class Group implements BasicElement {
+public class Group implements Element {
 
-	List<BasicElement> elements = new ArrayList<BasicElement>();
+	List<Element> elements = new ArrayList<Element>();
 	private String TYPE;
 	private String NAME;
 	
@@ -16,20 +16,20 @@ public class Group implements BasicElement {
 		NAME = name;
 	}
 	
-	public Group(String name, BasicElement... elements) {
+	public Group(String name, Element... elements) {
 		this(name);
-		for(BasicElement element : elements) {
+		for(Element element : elements) {
 			this.elements.add(element);
 		}
 	}
 	
-	public Group(String name, List<BasicElement> elements) {
+	public Group(String name, List<Element> elements) {
 		this(name);
 		if(!elements.isEmpty())
 			this.elements = elements;
 	}
 	
-	public void addElementToGroup(BasicElement element) {
+	public void addElementToGroup(Element element) {
 		if(elementIsMyself(element)) {
 			System.out.println("Warning: Group cannot contain itself.");
 		}
@@ -41,15 +41,15 @@ public class Group implements BasicElement {
 		}
 	}
 
-	public void addElementsToGroup(List<BasicElement> elements) {
-		for(BasicElement e : elements) {
+	public void addElementsToGroup(List<Element> elements) {
+		for(Element e : elements) {
 			addElementToGroup(e);
 		}
 	}
 	
 	public void initialize(WebDriver driver) {
 		if(!elements.isEmpty()) {
-			for(BasicElement e : elements) {
+			for(Element e : elements) {
 				e.initialize(driver);
 			}
 			System.out.println(NAME + ": All elements have been initialized.");
@@ -59,14 +59,14 @@ public class Group implements BasicElement {
 		}
 	}
 	
-	private boolean elementIsMyself(BasicElement element) {
+	private boolean elementIsMyself(Element element) {
 		return this == element;
 	}
 	
 	public void printElementsList() {
 		System.out.println("Group: " + NAME);
 		System.out.println("  Elements: " + elements.size());
-		for(BasicElement element : elements) {
+		for(Element element : elements) {
 			if(element.getType().equalsIgnoreCase("group"))
 				((Group) element).printElementsList();
 			else
@@ -83,7 +83,7 @@ public class Group implements BasicElement {
 		return NAME;
 	}
 	
-	public List<BasicElement> getElements() {
+	public List<Element> getElements() {
 		return elements;
 	}
 

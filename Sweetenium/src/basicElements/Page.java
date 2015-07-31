@@ -70,9 +70,9 @@ public class Page {
 			classifyElementsInGroup(group);
 		}
 	}
-	
+
 	private void classifyElementsInGroup(Group group) {
-		for(BasicElement element : group.getElements()) {
+		for(Element element : group.getElements()) {
 			if(element.getType().equalsIgnoreCase("group")) {
 				classifyElementsInGroup((Group)element);
 			}
@@ -82,7 +82,7 @@ public class Page {
 		}
 	}
 	
-	private void classifyElement(BasicElement element) {
+	private void classifyElement(Element element) {
 		if(element.getType().equalsIgnoreCase("link")) {
 			this.links.add((Link)element);
 		}

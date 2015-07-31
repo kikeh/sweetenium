@@ -9,4 +9,4 @@
       <class name="tests.LinkTest"/>
     </classes>
   </test> <!-- Test -->
-</suite> <!-- Suite -->
+</suite>

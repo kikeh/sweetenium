@@ -100,6 +100,10 @@ public class BasicElement implements Element {
 	@Override
 	public String getType() {
 		return TYPE;
-	}	
+	}
+	
+	public boolean matchesIdentifierValue(String text) {
+		return text.compareTo(this.identifierValue) == 0;
+	}
 }
 

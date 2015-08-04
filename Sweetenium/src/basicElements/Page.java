@@ -9,6 +9,7 @@ public class Page {
 
 	List<Group> groups = new ArrayList<Group>();
 	List<Link> links = new ArrayList<Link>();
+	List<Button> buttons = new ArrayList<Button>();
 	
 	private String TYPE;
 	private String NAME;
@@ -86,6 +87,9 @@ public class Page {
 		if(element.getType().equalsIgnoreCase("link")) {
 			this.links.add((Link)element);
 		}
+		else if(element.getType().equalsIgnoreCase("button")) {
+			this.buttons.add((Button)element);
+		}
 	}
 	
 //	public void printElementsList() {
@@ -102,6 +106,34 @@ public class Page {
 
 	public String getName() {
 		return NAME;
+	}
+	
+	public List<Link> getLinks() {
+		return links;
+	}
+	
+	private BasicElement foundElement(String text) {
+		BasicElement result = null;
+		for(Link l : links) {
+			if(l.matchesIdentifierValue(text)) {
+				result = l;
+			}
+		}
+		return result;
+	}
+	
+	public void click(String text) {
+		BasicElement e = foundElement(text);
+		if(e != null) {
+			e.click();
+		}
+	}
+	
+	public void checkAllLinks() {
+		for(Link l : links) {
+			l.click();
+			driver.navigate().back();
+		}
 	}
 
 }
